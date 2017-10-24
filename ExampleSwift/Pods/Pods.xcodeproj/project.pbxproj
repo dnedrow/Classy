@@ -1,0 +1,882 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00039269E445BDD56937866F1B370AAA /* CASDeviceOSVersionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BA44C683E29496408596DCEFFF50518A /* CASDeviceOSVersionItem.m */; };
+		030C766925392415C2E2B096FFCD10EB /* UINavigationBar+CASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB58DD0A2CCC693E78E7951FF29D488 /* UINavigationBar+CASAdditions.m */; };
+		049C992B421E85A847F5F680558BD908 /* CASPropertyDescriptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 62B5DE01C53109B03E81B782186857A5 /* CASPropertyDescriptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BF9EFD2DF0EA1CE26EF0C7A10632035 /* CASArgumentDescriptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 7802A5552C04878CA883FA201FB6D67B /* CASArgumentDescriptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DD1F55BC03EFFA2297165D7E5B6EC20 /* CASRuntimeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EC6F33A2B4CAB911AFCFDFFCF87DBAA6 /* CASRuntimeExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		105D6E61CD48E467BEF65FDB10C007DF /* CASStyleableItem.h in Headers */ = {isa = PBXBuildFile; fileRef = AE48696D9B8085A50A4A11CE3647CD6A /* CASStyleableItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13E41230B01269BF27DEF2E0A2B7FB66 /* CASTextAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BAE0C06FB5198827557D11C1C671130 /* CASTextAttributes.m */; };
+		24A992D32F6EC20A443B89AEA7820224 /* UIViewController+CASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8D62BAD24E6BF14E45DB2503C80389 /* UIViewController+CASAdditions.m */; };
+		263A95FCFC813AF533E9C23A46A7E4AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33083C616C9CA8AF16FA7C690BC673C7 /* Foundation.framework */; };
+		2E515F9516C1253DDAE0F0F06AF946D8 /* CASStyleSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = D766C9F210FF5A9A0EB22A49B2C744F2 /* CASStyleSelector.m */; };
+		344697DC3E0213515295312362A49FDD /* CASAssociatedObjectsWeakWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = BB2318BFFBCD336EC73B861AA01BBDD1 /* CASAssociatedObjectsWeakWrapper.m */; };
+		35BD94FADDCE7E42F54AD70BD38FD407 /* CASDeviceSelectorItem.h in Headers */ = {isa = PBXBuildFile; fileRef = DA23CFE42F93FD8DC2A085E18E970F9B /* CASDeviceSelectorItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36E81490712C2C3031C2598530BD3F6B /* UITabBar+CASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = A1C33A19866E4127551A298FDD529C16 /* UITabBar+CASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		384B2D7D019DA6733DFEC100726CF27C /* CASToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E51142B1041115BD7962347A074331 /* CASToken.m */; };
+		38AACF8FEFDA68838879CD1AEE3F0BE9 /* CASStyler.h in Headers */ = {isa = PBXBuildFile; fileRef = F757957F37A2C10352B304090C390083 /* CASStyler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		423D2C6471534B902C0716EDE3581C16 /* CASStyleClassUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EFBBE02B600E40BA0EC363DFB29A2D0 /* CASStyleClassUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		428ED7EAD9BFD6F9F4A29086AF0F703D /* UIColor+CASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = B553E96FB267B709AE1D37940CCAB139 /* UIColor+CASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4865E8D11EEB7D968B4840C89C1500F3 /* Classy-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C729D60D644F2122C867E4194D58728 /* Classy-dummy.m */; };
+		4D23A1CBE2FAEA03592F84B946A0EBB7 /* NSRegularExpression+CASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C25419A1AE7BD4A2F275A68B3D93D5CF /* NSRegularExpression+CASAdditions.m */; };
+		4DAFB1CC880FA0267FCA4C6032FAF9F8 /* CASExpressionSolver.m in Sources */ = {isa = PBXBuildFile; fileRef = 98623362D78D767F885DD33D9F58DE43 /* CASExpressionSolver.m */; };
+		507771425A4A28C73365E3108F4D95AF /* UITabBar+CASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 516866D3E148D837366624D10AF50C5B /* UITabBar+CASAdditions.m */; };
+		539871758B8E9A0A853F4AAF5D9EAC59 /* CASDeviceTypeItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 11D361DC12756279FE25D6F0AFDB79F5 /* CASDeviceTypeItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57BA5F4465F2486A8F1127BA08F907EB /* UINavigationItem+CASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8643315BDE84C15644771D264B4E14D7 /* UINavigationItem+CASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B2D70D94645EBBBB06C6D667B9EBFA8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3917A50EB224EEDBC66971700D698782 /* UIKit.framework */; };
+		5C6AC1CE9633A3AD5B3885C33410E25B /* Classy-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 728B567AAC031B48A56BCDB55C0F53B0 /* Classy-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D10ACC2A469E54C47456FF9C1F2D777 /* UIBarItem+CASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A747C93BC77AA415C98759E752FD159D /* UIBarItem+CASAdditions.m */; };
+		5D8942C323D6FCD3076299B81B1650D9 /* UIColor+CASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A3183006BCB80F2914C5245E54A67DCE /* UIColor+CASAdditions.m */; };
+		5DFD9013C9D9BCDCC1AF421FAFAF0D6E /* CASStyleableItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B92DD930143679ECC96E033A9E2F341 /* CASStyleableItem.m */; };
+		5EAB75624E26509C3E86FDDB7BE03E87 /* CASParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EE2ECD780826817D7B3CD3C82162227 /* CASParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F944FBF831649C783621515B5F1B780 /* Pods-ExampleSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A2E415893D43DABAEF4C54B6EEC663A5 /* Pods-ExampleSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FDFF7867A337D6E4AC1F70D15D82806 /* CASInvocation.h in Headers */ = {isa = PBXBuildFile; fileRef = EBD52A7F4B1078C2D4404E164C4365A5 /* CASInvocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FEF00FFFBEBFACA7D4D3C73BB07161D /* CASObjectClassDescriptor.h in Headers */ = {isa = PBXBuildFile; fileRef = D9FDAF060A59344AC612BB7A1A33D995 /* CASObjectClassDescriptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66C0C84F02D3512D17E9600C81FC67DD /* CASStyleSelector.h in Headers */ = {isa = PBXBuildFile; fileRef = 61BC13082BE2DAF4700886CFAF526BFB /* CASStyleSelector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67D87FD8DABF52B04673D2AEC7C74192 /* NSString+CASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 65E73573950E1F81DEA33C1FB6DDA611 /* NSString+CASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6887BD1130A9A529DF2F9BE1079DAF65 /* CASInvocation.m in Sources */ = {isa = PBXBuildFile; fileRef = DE17826E46E573911C57BC259358B588 /* CASInvocation.m */; };
+		6AB09867292C497350CDF8ABAE34CDD9 /* CASDeviceTypeItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A116A92947A547BC41C67DA22DB293 /* CASDeviceTypeItem.m */; };
+		6EA0B6A895B97623A887C5AA3ED69DB4 /* CASTextAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FFC1BE6069ECA0EC208CF0BA78B059F /* CASTextAttributes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EC16348B4EF283E7D39393276A65D55 /* CASRuntimeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E92DD71228B3300518BB00309A9D13 /* CASRuntimeExtensions.m */; };
+		7197A2E5B67813F6275D8F2134E4938C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB7751D4D791D1183FB66D3CCA52CD8E /* QuartzCore.framework */; };
+		71F0BCF55314D4DC0F5AF20C45DE389B /* CASDeviceScreenSizeItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 735AD9AD025E74345638164AA667B4EA /* CASDeviceScreenSizeItem.m */; };
+		71F36B2DF03535CAD116F16E87A59F07 /* NSObject+CASSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E4CBBA60CAEFC0F622105A79F66A7B /* NSObject+CASSwizzle.m */; };
+		734068F0731F3304A35CA727208E7F39 /* CASExpressionSolver.h in Headers */ = {isa = PBXBuildFile; fileRef = 65831562D3BAC20038FC6E603EC5787A /* CASExpressionSolver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79BCA329ACB28CA7868DA8F1BA954AEB /* Classy.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F50B9BB65F9F8C823E9032FF67C5A17 /* Classy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84767C94EF7A03E664B79189E9382889 /* UISlider+CASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFFDC4CACF14106691731818500956F /* UISlider+CASAdditions.m */; };
+		8851574926F9FCDCC60800151A0BC77C /* CASLexer.h in Headers */ = {isa = PBXBuildFile; fileRef = AA2581B9D4939C42C409D4E94AFE1BB4 /* CASLexer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F3D2859E578ADCDDF321A6E59E10145 /* CASDeviceSelector.h in Headers */ = {isa = PBXBuildFile; fileRef = D7496C0CC9D7BF4CB2BD3018EBBCCF88 /* CASDeviceSelector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		975165DE8BE32E1B9CD6748062EBE7A2 /* UIView+CASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FF3E4D2B81126B3DF19319793397477 /* UIView+CASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		975409310FFE244844A882BBF9BD38A2 /* UIToolbar+CASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C55365C63AE3F36EFD20287A79C63CE9 /* UIToolbar+CASAdditions.m */; };
+		99BED469FB688E0DD863714CD5C4D350 /* CASArgumentDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E2A5B31D263BC784A8776A5E722378 /* CASArgumentDescriptor.m */; };
+		9B0979ED3C4087E937A95A705C97C996 /* CASObjectClassDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A479C1DFEC66E35A6244D6AAF5702E /* CASObjectClassDescriptor.m */; };
+		9D20D9AEFFAA3EB5A94D04B810AFC5A8 /* UIBarItem+CASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CDB788CDE185B9A0454B0C43B82EE12 /* UIBarItem+CASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E502B4587EB49CEC6C298F13F2226C5 /* CASUnitToken.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDFD81063211C17F5197BDA7017084C /* CASUnitToken.m */; };
+		ABBD5139C741DDFB5528A3B090B66AD1 /* UISlider+CASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 79992B585F9B8DE0A15C45286FCC48AB /* UISlider+CASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B24CB0FBE7E6DB730853B7A6465BB2C0 /* CASUnitToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 7238BF8A125B0BA8AA2035B1A3E72294 /* CASUnitToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2FA9E6EAA2792DCB01F266358F40141 /* CASParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE1C7CD326592BAFC380D8744EE0BAE /* CASParser.m */; };
+		B771A75D78046FDD1BADF180BFF174B7 /* CASUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 1852305EC497190CE56F9DCE90F9578F /* CASUtilities.m */; };
+		B9EE7F81875F32A916EE55BF3DAD56E4 /* Pods-ExampleSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E0A682606721FBFFAF7FDFED29EC3FE /* Pods-ExampleSwift-dummy.m */; };
+		BA17592339698A657DA626E2633273B3 /* UIView+CASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB20FB27828B3630EF4EB6131185B5A /* UIView+CASAdditions.m */; };
+		BAF61FEF04F70D2944FEA41E0474B4B3 /* UITextField+CASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C9F642E0D9CB026B259A621AFE0D6ED4 /* UITextField+CASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDE0F806BA05D29645E801179C4A2596 /* CASPropertyDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1CBEFDC9E9D5A168BC3607F7F45CFE /* CASPropertyDescriptor.m */; };
+		BE97C058A6BDE3CFB95A43094E87E1AE /* NSObject+CASSwizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = 81AAD1CE147879AA065345EFF5960F84 /* NSObject+CASSwizzle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0D9A09752FECC3DF413A51A49723E33 /* CASStyleProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C74F23E7C9608A98FB785B5714ECECD /* CASStyleProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C618E1F6BE86D7E54604C237A57DFF0D /* NSString+CASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 471D7693FFFF19707FDCD097A22FE542 /* NSString+CASAdditions.m */; };
+		CD307291825F6286D66E4518664B4B81 /* CASDeviceSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D92812BDB924B698F3F226EA37FC1AE /* CASDeviceSelector.m */; };
+		CDDED7831BB4502A8520E865B47B0255 /* CASLexer.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CDB1D21411825CB7CDA05CDB1D0149 /* CASLexer.m */; };
+		CE0D800D7B7DDB2285D072ED5035ED05 /* CASStyleNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 72023AF427F5C4B6D343C18CB9BE4A43 /* CASStyleNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CEC44C59617118DDA29D0FDAB74745BD /* UINavigationItem+CASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DC595B43881408C48763922622E4BA32 /* UINavigationItem+CASAdditions.m */; };
+		D067A24DE0EFFD7CFCE62D9E39929BC9 /* CASToken.h in Headers */ = {isa = PBXBuildFile; fileRef = A54AD1EABB0292F2AAEA31516EDB6A78 /* CASToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D20111D7E83489430F5A73AABB77FD95 /* CASDeviceScreenSizeItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ACDB7C1A2B4D7715CC9EAA6425DF14F /* CASDeviceScreenSizeItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D63C1CDEEA9BCB4EFE63A01BC7EFF083 /* UITextField+CASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF015D59E68FEFD19BE4E10EA0CA542 /* UITextField+CASAdditions.m */; };
+		DE81FAF6D7EEBA0F69454DA7295540CA /* UIViewController+CASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 62B48BF72AFFC81E052BBEA15AD54CD6 /* UIViewController+CASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1A50DFFCA45FF6398F7BF0A48E9C698 /* CASStyler.m in Sources */ = {isa = PBXBuildFile; fileRef = DD9AEB0D1E1B8B1555160ED28FFBF9A0 /* CASStyler.m */; };
+		E3E743B7BB52D9F5C1ED3B9DC415A5D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33083C616C9CA8AF16FA7C690BC673C7 /* Foundation.framework */; };
+		E48539C170842CAE531334B481027392 /* CASAssociatedObjectsWeakWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 0618D111877D5962D85200DF57027AC4 /* CASAssociatedObjectsWeakWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5E1B949F1DDD66FD9BF6E45DB40FD48 /* NSRegularExpression+CASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = EBE59508B1B7E3D97865E915F6EE21AD /* NSRegularExpression+CASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E98C7C869D0B70C2BDFAF86C101BB33E /* CASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = B9740A2E694A616AA794091861A6D14D /* CASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9BA02698F98EDB8ED55A3A1DDBC2D64 /* CASStyleProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BDC76718D9412D5203B48401F9022CD /* CASStyleProperty.m */; };
+		EBD7275DBAFE6254B4F8E629D8332345 /* CASDeviceOSVersionItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 1490EE5266EF9188F963F15EF4E8DF7E /* CASDeviceOSVersionItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F002A1C5A6E8430A89B29C77D381AEE8 /* UIToolbar+CASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 46E6CB87AC5B883C6E506A57C2598345 /* UIToolbar+CASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6D04F968953BDB86766E2F9B6707AF1 /* CASStyleClassUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = B71FEB4CC8FE2A382F6E895A8F4C10BD /* CASStyleClassUtilities.m */; };
+		F9B10A6C9F089807996A12041F42925D /* UINavigationBar+CASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2578F60C79B45BBD804FCEE791F4E4C9 /* UINavigationBar+CASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDEAAC49E237B81114B1177171AD713C /* CASStyleNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 12804782A5BE93DC7EC1490A532B0B82 /* CASStyleNode.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37F4B1A5322F13926808B23A00A1E368 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AF057D30DD6E68DBBDE71252D3564EC;
+			remoteInfo = Classy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0618D111877D5962D85200DF57027AC4 /* CASAssociatedObjectsWeakWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CASAssociatedObjectsWeakWrapper.h; sourceTree = "<group>"; };
+		0B92DD930143679ECC96E033A9E2F341 /* CASStyleableItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CASStyleableItem.m; sourceTree = "<group>"; };
+		0EFBBE02B600E40BA0EC363DFB29A2D0 /* CASStyleClassUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CASStyleClassUtilities.h; sourceTree = "<group>"; };
+		11D361DC12756279FE25D6F0AFDB79F5 /* CASDeviceTypeItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CASDeviceTypeItem.h; sourceTree = "<group>"; };
+		12804782A5BE93DC7EC1490A532B0B82 /* CASStyleNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CASStyleNode.m; sourceTree = "<group>"; };
+		1490EE5266EF9188F963F15EF4E8DF7E /* CASDeviceOSVersionItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CASDeviceOSVersionItem.h; sourceTree = "<group>"; };
+		14E92DD71228B3300518BB00309A9D13 /* CASRuntimeExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CASRuntimeExtensions.m; sourceTree = "<group>"; };
+		1852305EC497190CE56F9DCE90F9578F /* CASUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CASUtilities.m; sourceTree = "<group>"; };
+		1C74F23E7C9608A98FB785B5714ECECD /* CASStyleProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CASStyleProperty.h; sourceTree = "<group>"; };
+		1EE2ECD780826817D7B3CD3C82162227 /* CASParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CASParser.h; sourceTree = "<group>"; };
+		2578F60C79B45BBD804FCEE791F4E4C9 /* UINavigationBar+CASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+CASAdditions.h"; sourceTree = "<group>"; };
+		2BB20FB27828B3630EF4EB6131185B5A /* UIView+CASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+CASAdditions.m"; sourceTree = "<group>"; };
+		2CDB788CDE185B9A0454B0C43B82EE12 /* UIBarItem+CASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIBarItem+CASAdditions.h"; sourceTree = "<group>"; };
+		2F50B9BB65F9F8C823E9032FF67C5A17 /* Classy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Classy.h; path = Classy/Classy.h; sourceTree = "<group>"; };
+		33083C616C9CA8AF16FA7C690BC673C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		38AEC3A6E68045ADDDE1E0ADDB3F1936 /* Pods-ExampleSwift-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExampleSwift-frameworks.sh"; sourceTree = "<group>"; };
+		3917A50EB224EEDBC66971700D698782 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		3C31A342A7564AAA9B3C9CF7813C1A1E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46E6CB87AC5B883C6E506A57C2598345 /* UIToolbar+CASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIToolbar+CASAdditions.h"; sourceTree = "<group>"; };
+		471D7693FFFF19707FDCD097A22FE542 /* NSString+CASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+CASAdditions.m"; sourceTree = "<group>"; };
+		47E2A5B31D263BC784A8776A5E722378 /* CASArgumentDescriptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CASArgumentDescriptor.m; sourceTree = "<group>"; };
+		4E0A682606721FBFFAF7FDFED29EC3FE /* Pods-ExampleSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ExampleSwift-dummy.m"; sourceTree = "<group>"; };
+		4FFC1BE6069ECA0EC208CF0BA78B059F /* CASTextAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CASTextAttributes.h; sourceTree = "<group>"; };
+		516866D3E148D837366624D10AF50C5B /* UITabBar+CASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+CASAdditions.m"; sourceTree = "<group>"; };
+		54A116A92947A547BC41C67DA22DB293 /* CASDeviceTypeItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CASDeviceTypeItem.m; sourceTree = "<group>"; };
+		54E51142B1041115BD7962347A074331 /* CASToken.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CASToken.m; sourceTree = "<group>"; };
+		56A479C1DFEC66E35A6244D6AAF5702E /* CASObjectClassDescriptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CASObjectClassDescriptor.m; sourceTree = "<group>"; };
+		5A59F7398C8D6D45E52E58074A555773 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C729D60D644F2122C867E4194D58728 /* Classy-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Classy-dummy.m"; sourceTree = "<group>"; };
+		61BC13082BE2DAF4700886CFAF526BFB /* CASStyleSelector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CASStyleSelector.h; sourceTree = "<group>"; };
+		62B48BF72AFFC81E052BBEA15AD54CD6 /* UIViewController+CASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CASAdditions.h"; sourceTree = "<group>"; };
+		62B5DE01C53109B03E81B782186857A5 /* CASPropertyDescriptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CASPropertyDescriptor.h; sourceTree = "<group>"; };
+		63074C552095A6D62509FC32FDA42467 /* Classy-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Classy-prefix.pch"; sourceTree = "<group>"; };
+		65831562D3BAC20038FC6E603EC5787A /* CASExpressionSolver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CASExpressionSolver.h; sourceTree = "<group>"; };
+		65E73573950E1F81DEA33C1FB6DDA611 /* NSString+CASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+CASAdditions.h"; sourceTree = "<group>"; };
+		6BAE0C06FB5198827557D11C1C671130 /* CASTextAttributes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CASTextAttributes.m; sourceTree = "<group>"; };
+		6BDC76718D9412D5203B48401F9022CD /* CASStyleProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CASStyleProperty.m; sourceTree = "<group>"; };
+		72023AF427F5C4B6D343C18CB9BE4A43 /* CASStyleNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CASStyleNode.h; sourceTree = "<group>"; };
+		7238BF8A125B0BA8AA2035B1A3E72294 /* CASUnitToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CASUnitToken.h; sourceTree = "<group>"; };
+		728B567AAC031B48A56BCDB55C0F53B0 /* Classy-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Classy-umbrella.h"; sourceTree = "<group>"; };
+		735AD9AD025E74345638164AA667B4EA /* CASDeviceScreenSizeItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CASDeviceScreenSizeItem.m; sourceTree = "<group>"; };
+		7802A5552C04878CA883FA201FB6D67B /* CASArgumentDescriptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CASArgumentDescriptor.h; sourceTree = "<group>"; };
+		79992B585F9B8DE0A15C45286FCC48AB /* UISlider+CASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UISlider+CASAdditions.h"; sourceTree = "<group>"; };
+		81AAD1CE147879AA065345EFF5960F84 /* NSObject+CASSwizzle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+CASSwizzle.h"; sourceTree = "<group>"; };
+		8643315BDE84C15644771D264B4E14D7 /* UINavigationItem+CASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UINavigationItem+CASAdditions.h"; sourceTree = "<group>"; };
+		8ACDB7C1A2B4D7715CC9EAA6425DF14F /* CASDeviceScreenSizeItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CASDeviceScreenSizeItem.h; sourceTree = "<group>"; };
+		8D92812BDB924B698F3F226EA37FC1AE /* CASDeviceSelector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CASDeviceSelector.m; sourceTree = "<group>"; };
+		8DE1A0A89B4023ED2FF82629218A7DA2 /* Pods-ExampleSwift-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ExampleSwift-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8FF3E4D2B81126B3DF19319793397477 /* UIView+CASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+CASAdditions.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98623362D78D767F885DD33D9F58DE43 /* CASExpressionSolver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CASExpressionSolver.m; sourceTree = "<group>"; };
+		9EE1C7CD326592BAFC380D8744EE0BAE /* CASParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CASParser.m; sourceTree = "<group>"; };
+		9F1CBEFDC9E9D5A168BC3607F7F45CFE /* CASPropertyDescriptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CASPropertyDescriptor.m; sourceTree = "<group>"; };
+		A1C33A19866E4127551A298FDD529C16 /* UITabBar+CASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITabBar+CASAdditions.h"; sourceTree = "<group>"; };
+		A2D27DCA813BA0482FDA5BE9F8078C02 /* Pods-ExampleSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ExampleSwift.modulemap"; sourceTree = "<group>"; };
+		A2E415893D43DABAEF4C54B6EEC663A5 /* Pods-ExampleSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ExampleSwift-umbrella.h"; sourceTree = "<group>"; };
+		A3183006BCB80F2914C5245E54A67DCE /* UIColor+CASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CASAdditions.m"; sourceTree = "<group>"; };
+		A54AD1EABB0292F2AAEA31516EDB6A78 /* CASToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CASToken.h; sourceTree = "<group>"; };
+		A747C93BC77AA415C98759E752FD159D /* UIBarItem+CASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIBarItem+CASAdditions.m"; sourceTree = "<group>"; };
+		A8B9D7863418C68D6AEAA26315EA933E /* Classy.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Classy.modulemap; sourceTree = "<group>"; };
+		AA2581B9D4939C42C409D4E94AFE1BB4 /* CASLexer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CASLexer.h; sourceTree = "<group>"; };
+		AE48696D9B8085A50A4A11CE3647CD6A /* CASStyleableItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CASStyleableItem.h; sourceTree = "<group>"; };
+		B1AAD130618349124E57012433DF057A /* Pods-ExampleSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		B4E4CBBA60CAEFC0F622105A79F66A7B /* NSObject+CASSwizzle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CASSwizzle.m"; sourceTree = "<group>"; };
+		B553E96FB267B709AE1D37940CCAB139 /* UIColor+CASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+CASAdditions.h"; sourceTree = "<group>"; };
+		B71FEB4CC8FE2A382F6E895A8F4C10BD /* CASStyleClassUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CASStyleClassUtilities.m; sourceTree = "<group>"; };
+		B9740A2E694A616AA794091861A6D14D /* CASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CASUtilities.h; sourceTree = "<group>"; };
+		BA44C683E29496408596DCEFFF50518A /* CASDeviceOSVersionItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CASDeviceOSVersionItem.m; sourceTree = "<group>"; };
+		BB2318BFFBCD336EC73B861AA01BBDD1 /* CASAssociatedObjectsWeakWrapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CASAssociatedObjectsWeakWrapper.m; sourceTree = "<group>"; };
+		BBFFDC4CACF14106691731818500956F /* UISlider+CASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UISlider+CASAdditions.m"; sourceTree = "<group>"; };
+		C25419A1AE7BD4A2F275A68B3D93D5CF /* NSRegularExpression+CASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSRegularExpression+CASAdditions.m"; sourceTree = "<group>"; };
+		C55365C63AE3F36EFD20287A79C63CE9 /* UIToolbar+CASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIToolbar+CASAdditions.m"; sourceTree = "<group>"; };
+		C5CDB1D21411825CB7CDA05CDB1D0149 /* CASLexer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CASLexer.m; sourceTree = "<group>"; };
+		C9F642E0D9CB026B259A621AFE0D6ED4 /* UITextField+CASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextField+CASAdditions.h"; sourceTree = "<group>"; };
+		CC264B7E4130BFE939AE73093BACB663 /* Pods_ExampleSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ExampleSwift.framework; path = "Pods-ExampleSwift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7496C0CC9D7BF4CB2BD3018EBBCCF88 /* CASDeviceSelector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CASDeviceSelector.h; sourceTree = "<group>"; };
+		D766C9F210FF5A9A0EB22A49B2C744F2 /* CASStyleSelector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CASStyleSelector.m; sourceTree = "<group>"; };
+		D9FDAF060A59344AC612BB7A1A33D995 /* CASObjectClassDescriptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CASObjectClassDescriptor.h; sourceTree = "<group>"; };
+		DA23CFE42F93FD8DC2A085E18E970F9B /* CASDeviceSelectorItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CASDeviceSelectorItem.h; sourceTree = "<group>"; };
+		DC595B43881408C48763922622E4BA32 /* UINavigationItem+CASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UINavigationItem+CASAdditions.m"; sourceTree = "<group>"; };
+		DD9AEB0D1E1B8B1555160ED28FFBF9A0 /* CASStyler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CASStyler.m; sourceTree = "<group>"; };
+		DE17826E46E573911C57BC259358B588 /* CASInvocation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CASInvocation.m; sourceTree = "<group>"; };
+		DFCE2ECB772155D1C245443EED22E7F9 /* Classy.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Classy.xcconfig; sourceTree = "<group>"; };
+		E04F01440A7CF31EC853BBCB94ED2C2A /* Pods-ExampleSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleSwift.release.xcconfig"; sourceTree = "<group>"; };
+		EA61C89FD8156D7F73CD1AF2B21C69A0 /* Pods-ExampleSwift-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExampleSwift-resources.sh"; sourceTree = "<group>"; };
+		EAF015D59E68FEFD19BE4E10EA0CA542 /* UITextField+CASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextField+CASAdditions.m"; sourceTree = "<group>"; };
+		EBD52A7F4B1078C2D4404E164C4365A5 /* CASInvocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CASInvocation.h; sourceTree = "<group>"; };
+		EBE59508B1B7E3D97865E915F6EE21AD /* NSRegularExpression+CASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSRegularExpression+CASAdditions.h"; sourceTree = "<group>"; };
+		EC6F33A2B4CAB911AFCFDFFCF87DBAA6 /* CASRuntimeExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CASRuntimeExtensions.h; sourceTree = "<group>"; };
+		EFDFD81063211C17F5197BDA7017084C /* CASUnitToken.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CASUnitToken.m; sourceTree = "<group>"; };
+		F483D0C8640713D00E0DB5585A33D54A /* Pods-ExampleSwift-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExampleSwift-acknowledgements.plist"; sourceTree = "<group>"; };
+		F757957F37A2C10352B304090C390083 /* CASStyler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CASStyler.h; sourceTree = "<group>"; };
+		FB063877D70745B554F85A6C99509BD2 /* Classy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Classy.framework; path = Classy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB7751D4D791D1183FB66D3CCA52CD8E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		FB8D62BAD24E6BF14E45DB2503C80389 /* UIViewController+CASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CASAdditions.m"; sourceTree = "<group>"; };
+		FFB58DD0A2CCC693E78E7951FF29D488 /* UINavigationBar+CASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+CASAdditions.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		649A1ED03BA479913D96ABC4DE754B1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3E743B7BB52D9F5C1ED3B9DC415A5D0 /* Foundation.framework in Frameworks */,
+				7197A2E5B67813F6275D8F2134E4938C /* QuartzCore.framework in Frameworks */,
+				5B2D70D94645EBBBB06C6D667B9EBFA8 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D9611168E7466E5470D37420268A74D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				263A95FCFC813AF533E9C23A46A7E4AE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93A319F2C1969B7AA0B17444A3F8BA22 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3ACE49D34138A9755EC8212EA21F47AF /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				72B1F8BEC664817FE9AF074982A6F84B /* Classy */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		4255898D3CCE8832EFC07A88E111807C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8B9D7863418C68D6AEAA26315EA933E /* Classy.modulemap */,
+				DFCE2ECB772155D1C245443EED22E7F9 /* Classy.xcconfig */,
+				5C729D60D644F2122C867E4194D58728 /* Classy-dummy.m */,
+				63074C552095A6D62509FC32FDA42467 /* Classy-prefix.pch */,
+				728B567AAC031B48A56BCDB55C0F53B0 /* Classy-umbrella.h */,
+				3C31A342A7564AAA9B3C9CF7813C1A1E /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "ExampleSwift/Pods/Target Support Files/Classy";
+			sourceTree = "<group>";
+		};
+		64B14262C872BD185A90B191B6594AAD /* Reflection */ = {
+			isa = PBXGroup;
+			children = (
+				7802A5552C04878CA883FA201FB6D67B /* CASArgumentDescriptor.h */,
+				47E2A5B31D263BC784A8776A5E722378 /* CASArgumentDescriptor.m */,
+				0618D111877D5962D85200DF57027AC4 /* CASAssociatedObjectsWeakWrapper.h */,
+				BB2318BFFBCD336EC73B861AA01BBDD1 /* CASAssociatedObjectsWeakWrapper.m */,
+				D9FDAF060A59344AC612BB7A1A33D995 /* CASObjectClassDescriptor.h */,
+				56A479C1DFEC66E35A6244D6AAF5702E /* CASObjectClassDescriptor.m */,
+				62B5DE01C53109B03E81B782186857A5 /* CASPropertyDescriptor.h */,
+				9F1CBEFDC9E9D5A168BC3607F7F45CFE /* CASPropertyDescriptor.m */,
+				EC6F33A2B4CAB911AFCFDFFCF87DBAA6 /* CASRuntimeExtensions.h */,
+				14E92DD71228B3300518BB00309A9D13 /* CASRuntimeExtensions.m */,
+			);
+			name = Reflection;
+			path = Classy/Reflection;
+			sourceTree = "<group>";
+		};
+		72B1F8BEC664817FE9AF074982A6F84B /* Classy */ = {
+			isa = PBXGroup;
+			children = (
+				2F50B9BB65F9F8C823E9032FF67C5A17 /* Classy.h */,
+				C4A37AD98AE8374C92AEF10A621FB9EC /* Additions */,
+				E14BC3DDF5FDC7D9A360DDB7959C15E2 /* Parser */,
+				64B14262C872BD185A90B191B6594AAD /* Reflection */,
+				4255898D3CCE8832EFC07A88E111807C /* Support Files */,
+			);
+			name = Classy;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				3ACE49D34138A9755EC8212EA21F47AF /* Development Pods */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				864049F54672978B41EDD820433C18B6 /* Products */,
+				F4056262926ABE1B59812BFB8265A52E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		864049F54672978B41EDD820433C18B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB063877D70745B554F85A6C99509BD2 /* Classy.framework */,
+				CC264B7E4130BFE939AE73093BACB663 /* Pods_ExampleSwift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93A319F2C1969B7AA0B17444A3F8BA22 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				33083C616C9CA8AF16FA7C690BC673C7 /* Foundation.framework */,
+				FB7751D4D791D1183FB66D3CCA52CD8E /* QuartzCore.framework */,
+				3917A50EB224EEDBC66971700D698782 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C4A37AD98AE8374C92AEF10A621FB9EC /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				AE48696D9B8085A50A4A11CE3647CD6A /* CASStyleableItem.h */,
+				0B92DD930143679ECC96E033A9E2F341 /* CASStyleableItem.m */,
+				0EFBBE02B600E40BA0EC363DFB29A2D0 /* CASStyleClassUtilities.h */,
+				B71FEB4CC8FE2A382F6E895A8F4C10BD /* CASStyleClassUtilities.m */,
+				81AAD1CE147879AA065345EFF5960F84 /* NSObject+CASSwizzle.h */,
+				B4E4CBBA60CAEFC0F622105A79F66A7B /* NSObject+CASSwizzle.m */,
+				EBE59508B1B7E3D97865E915F6EE21AD /* NSRegularExpression+CASAdditions.h */,
+				C25419A1AE7BD4A2F275A68B3D93D5CF /* NSRegularExpression+CASAdditions.m */,
+				65E73573950E1F81DEA33C1FB6DDA611 /* NSString+CASAdditions.h */,
+				471D7693FFFF19707FDCD097A22FE542 /* NSString+CASAdditions.m */,
+				2CDB788CDE185B9A0454B0C43B82EE12 /* UIBarItem+CASAdditions.h */,
+				A747C93BC77AA415C98759E752FD159D /* UIBarItem+CASAdditions.m */,
+				B553E96FB267B709AE1D37940CCAB139 /* UIColor+CASAdditions.h */,
+				A3183006BCB80F2914C5245E54A67DCE /* UIColor+CASAdditions.m */,
+				2578F60C79B45BBD804FCEE791F4E4C9 /* UINavigationBar+CASAdditions.h */,
+				FFB58DD0A2CCC693E78E7951FF29D488 /* UINavigationBar+CASAdditions.m */,
+				8643315BDE84C15644771D264B4E14D7 /* UINavigationItem+CASAdditions.h */,
+				DC595B43881408C48763922622E4BA32 /* UINavigationItem+CASAdditions.m */,
+				79992B585F9B8DE0A15C45286FCC48AB /* UISlider+CASAdditions.h */,
+				BBFFDC4CACF14106691731818500956F /* UISlider+CASAdditions.m */,
+				A1C33A19866E4127551A298FDD529C16 /* UITabBar+CASAdditions.h */,
+				516866D3E148D837366624D10AF50C5B /* UITabBar+CASAdditions.m */,
+				C9F642E0D9CB026B259A621AFE0D6ED4 /* UITextField+CASAdditions.h */,
+				EAF015D59E68FEFD19BE4E10EA0CA542 /* UITextField+CASAdditions.m */,
+				46E6CB87AC5B883C6E506A57C2598345 /* UIToolbar+CASAdditions.h */,
+				C55365C63AE3F36EFD20287A79C63CE9 /* UIToolbar+CASAdditions.m */,
+				8FF3E4D2B81126B3DF19319793397477 /* UIView+CASAdditions.h */,
+				2BB20FB27828B3630EF4EB6131185B5A /* UIView+CASAdditions.m */,
+				62B48BF72AFFC81E052BBEA15AD54CD6 /* UIViewController+CASAdditions.h */,
+				FB8D62BAD24E6BF14E45DB2503C80389 /* UIViewController+CASAdditions.m */,
+			);
+			name = Additions;
+			path = Classy/Additions;
+			sourceTree = "<group>";
+		};
+		C59A96355FE83764B9CAC16A435CCD6E /* Pods-ExampleSwift */ = {
+			isa = PBXGroup;
+			children = (
+				5A59F7398C8D6D45E52E58074A555773 /* Info.plist */,
+				A2D27DCA813BA0482FDA5BE9F8078C02 /* Pods-ExampleSwift.modulemap */,
+				8DE1A0A89B4023ED2FF82629218A7DA2 /* Pods-ExampleSwift-acknowledgements.markdown */,
+				F483D0C8640713D00E0DB5585A33D54A /* Pods-ExampleSwift-acknowledgements.plist */,
+				4E0A682606721FBFFAF7FDFED29EC3FE /* Pods-ExampleSwift-dummy.m */,
+				38AEC3A6E68045ADDDE1E0ADDB3F1936 /* Pods-ExampleSwift-frameworks.sh */,
+				EA61C89FD8156D7F73CD1AF2B21C69A0 /* Pods-ExampleSwift-resources.sh */,
+				A2E415893D43DABAEF4C54B6EEC663A5 /* Pods-ExampleSwift-umbrella.h */,
+				B1AAD130618349124E57012433DF057A /* Pods-ExampleSwift.debug.xcconfig */,
+				E04F01440A7CF31EC853BBCB94ED2C2A /* Pods-ExampleSwift.release.xcconfig */,
+			);
+			name = "Pods-ExampleSwift";
+			path = "Target Support Files/Pods-ExampleSwift";
+			sourceTree = "<group>";
+		};
+		E14BC3DDF5FDC7D9A360DDB7959C15E2 /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				1490EE5266EF9188F963F15EF4E8DF7E /* CASDeviceOSVersionItem.h */,
+				BA44C683E29496408596DCEFFF50518A /* CASDeviceOSVersionItem.m */,
+				8ACDB7C1A2B4D7715CC9EAA6425DF14F /* CASDeviceScreenSizeItem.h */,
+				735AD9AD025E74345638164AA667B4EA /* CASDeviceScreenSizeItem.m */,
+				D7496C0CC9D7BF4CB2BD3018EBBCCF88 /* CASDeviceSelector.h */,
+				8D92812BDB924B698F3F226EA37FC1AE /* CASDeviceSelector.m */,
+				DA23CFE42F93FD8DC2A085E18E970F9B /* CASDeviceSelectorItem.h */,
+				11D361DC12756279FE25D6F0AFDB79F5 /* CASDeviceTypeItem.h */,
+				54A116A92947A547BC41C67DA22DB293 /* CASDeviceTypeItem.m */,
+				65831562D3BAC20038FC6E603EC5787A /* CASExpressionSolver.h */,
+				98623362D78D767F885DD33D9F58DE43 /* CASExpressionSolver.m */,
+				EBD52A7F4B1078C2D4404E164C4365A5 /* CASInvocation.h */,
+				DE17826E46E573911C57BC259358B588 /* CASInvocation.m */,
+				AA2581B9D4939C42C409D4E94AFE1BB4 /* CASLexer.h */,
+				C5CDB1D21411825CB7CDA05CDB1D0149 /* CASLexer.m */,
+				1EE2ECD780826817D7B3CD3C82162227 /* CASParser.h */,
+				9EE1C7CD326592BAFC380D8744EE0BAE /* CASParser.m */,
+				72023AF427F5C4B6D343C18CB9BE4A43 /* CASStyleNode.h */,
+				12804782A5BE93DC7EC1490A532B0B82 /* CASStyleNode.m */,
+				1C74F23E7C9608A98FB785B5714ECECD /* CASStyleProperty.h */,
+				6BDC76718D9412D5203B48401F9022CD /* CASStyleProperty.m */,
+				F757957F37A2C10352B304090C390083 /* CASStyler.h */,
+				DD9AEB0D1E1B8B1555160ED28FFBF9A0 /* CASStyler.m */,
+				61BC13082BE2DAF4700886CFAF526BFB /* CASStyleSelector.h */,
+				D766C9F210FF5A9A0EB22A49B2C744F2 /* CASStyleSelector.m */,
+				4FFC1BE6069ECA0EC208CF0BA78B059F /* CASTextAttributes.h */,
+				6BAE0C06FB5198827557D11C1C671130 /* CASTextAttributes.m */,
+				A54AD1EABB0292F2AAEA31516EDB6A78 /* CASToken.h */,
+				54E51142B1041115BD7962347A074331 /* CASToken.m */,
+				7238BF8A125B0BA8AA2035B1A3E72294 /* CASUnitToken.h */,
+				EFDFD81063211C17F5197BDA7017084C /* CASUnitToken.m */,
+				B9740A2E694A616AA794091861A6D14D /* CASUtilities.h */,
+				1852305EC497190CE56F9DCE90F9578F /* CASUtilities.m */,
+			);
+			name = Parser;
+			path = Classy/Parser;
+			sourceTree = "<group>";
+		};
+		F4056262926ABE1B59812BFB8265A52E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C59A96355FE83764B9CAC16A435CCD6E /* Pods-ExampleSwift */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		71D0FEB0BB982432E4DBE749414EC777 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BF9EFD2DF0EA1CE26EF0C7A10632035 /* CASArgumentDescriptor.h in Headers */,
+				E48539C170842CAE531334B481027392 /* CASAssociatedObjectsWeakWrapper.h in Headers */,
+				EBD7275DBAFE6254B4F8E629D8332345 /* CASDeviceOSVersionItem.h in Headers */,
+				D20111D7E83489430F5A73AABB77FD95 /* CASDeviceScreenSizeItem.h in Headers */,
+				8F3D2859E578ADCDDF321A6E59E10145 /* CASDeviceSelector.h in Headers */,
+				35BD94FADDCE7E42F54AD70BD38FD407 /* CASDeviceSelectorItem.h in Headers */,
+				539871758B8E9A0A853F4AAF5D9EAC59 /* CASDeviceTypeItem.h in Headers */,
+				734068F0731F3304A35CA727208E7F39 /* CASExpressionSolver.h in Headers */,
+				5FDFF7867A337D6E4AC1F70D15D82806 /* CASInvocation.h in Headers */,
+				8851574926F9FCDCC60800151A0BC77C /* CASLexer.h in Headers */,
+				5FEF00FFFBEBFACA7D4D3C73BB07161D /* CASObjectClassDescriptor.h in Headers */,
+				5EAB75624E26509C3E86FDDB7BE03E87 /* CASParser.h in Headers */,
+				049C992B421E85A847F5F680558BD908 /* CASPropertyDescriptor.h in Headers */,
+				0DD1F55BC03EFFA2297165D7E5B6EC20 /* CASRuntimeExtensions.h in Headers */,
+				105D6E61CD48E467BEF65FDB10C007DF /* CASStyleableItem.h in Headers */,
+				423D2C6471534B902C0716EDE3581C16 /* CASStyleClassUtilities.h in Headers */,
+				CE0D800D7B7DDB2285D072ED5035ED05 /* CASStyleNode.h in Headers */,
+				C0D9A09752FECC3DF413A51A49723E33 /* CASStyleProperty.h in Headers */,
+				38AACF8FEFDA68838879CD1AEE3F0BE9 /* CASStyler.h in Headers */,
+				66C0C84F02D3512D17E9600C81FC67DD /* CASStyleSelector.h in Headers */,
+				6EA0B6A895B97623A887C5AA3ED69DB4 /* CASTextAttributes.h in Headers */,
+				D067A24DE0EFFD7CFCE62D9E39929BC9 /* CASToken.h in Headers */,
+				B24CB0FBE7E6DB730853B7A6465BB2C0 /* CASUnitToken.h in Headers */,
+				E98C7C869D0B70C2BDFAF86C101BB33E /* CASUtilities.h in Headers */,
+				5C6AC1CE9633A3AD5B3885C33410E25B /* Classy-umbrella.h in Headers */,
+				79BCA329ACB28CA7868DA8F1BA954AEB /* Classy.h in Headers */,
+				BE97C058A6BDE3CFB95A43094E87E1AE /* NSObject+CASSwizzle.h in Headers */,
+				E5E1B949F1DDD66FD9BF6E45DB40FD48 /* NSRegularExpression+CASAdditions.h in Headers */,
+				67D87FD8DABF52B04673D2AEC7C74192 /* NSString+CASAdditions.h in Headers */,
+				9D20D9AEFFAA3EB5A94D04B810AFC5A8 /* UIBarItem+CASAdditions.h in Headers */,
+				428ED7EAD9BFD6F9F4A29086AF0F703D /* UIColor+CASAdditions.h in Headers */,
+				F9B10A6C9F089807996A12041F42925D /* UINavigationBar+CASAdditions.h in Headers */,
+				57BA5F4465F2486A8F1127BA08F907EB /* UINavigationItem+CASAdditions.h in Headers */,
+				ABBD5139C741DDFB5528A3B090B66AD1 /* UISlider+CASAdditions.h in Headers */,
+				36E81490712C2C3031C2598530BD3F6B /* UITabBar+CASAdditions.h in Headers */,
+				BAF61FEF04F70D2944FEA41E0474B4B3 /* UITextField+CASAdditions.h in Headers */,
+				F002A1C5A6E8430A89B29C77D381AEE8 /* UIToolbar+CASAdditions.h in Headers */,
+				975165DE8BE32E1B9CD6748062EBE7A2 /* UIView+CASAdditions.h in Headers */,
+				DE81FAF6D7EEBA0F69454DA7295540CA /* UIViewController+CASAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4168710407A35CED82E38C1700BFD92 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F944FBF831649C783621515B5F1B780 /* Pods-ExampleSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6AF057D30DD6E68DBBDE71252D3564EC /* Classy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A348155622B5AE4F718AE34BD12D1774 /* Build configuration list for PBXNativeTarget "Classy" */;
+			buildPhases = (
+				657E0928BC2F2AE35698879A5D8C02A3 /* Sources */,
+				649A1ED03BA479913D96ABC4DE754B1D /* Frameworks */,
+				71D0FEB0BB982432E4DBE749414EC777 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Classy;
+			productName = Classy;
+			productReference = FB063877D70745B554F85A6C99509BD2 /* Classy.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9859333059E03DD4DE447B447A0EC779 /* Pods-ExampleSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 680D9E5880742C7304B8B601411060DB /* Build configuration list for PBXNativeTarget "Pods-ExampleSwift" */;
+			buildPhases = (
+				DFE32981AE94DB40FEF7EFB56BA7213A /* Sources */,
+				7D9611168E7466E5470D37420268A74D /* Frameworks */,
+				A4168710407A35CED82E38C1700BFD92 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D972169B4D22E0072496812147897D13 /* PBXTargetDependency */,
+			);
+			name = "Pods-ExampleSwift";
+			productName = "Pods-ExampleSwift";
+			productReference = CC264B7E4130BFE939AE73093BACB663 /* Pods_ExampleSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 864049F54672978B41EDD820433C18B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6AF057D30DD6E68DBBDE71252D3564EC /* Classy */,
+				9859333059E03DD4DE447B447A0EC779 /* Pods-ExampleSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		657E0928BC2F2AE35698879A5D8C02A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99BED469FB688E0DD863714CD5C4D350 /* CASArgumentDescriptor.m in Sources */,
+				344697DC3E0213515295312362A49FDD /* CASAssociatedObjectsWeakWrapper.m in Sources */,
+				00039269E445BDD56937866F1B370AAA /* CASDeviceOSVersionItem.m in Sources */,
+				71F0BCF55314D4DC0F5AF20C45DE389B /* CASDeviceScreenSizeItem.m in Sources */,
+				CD307291825F6286D66E4518664B4B81 /* CASDeviceSelector.m in Sources */,
+				6AB09867292C497350CDF8ABAE34CDD9 /* CASDeviceTypeItem.m in Sources */,
+				4DAFB1CC880FA0267FCA4C6032FAF9F8 /* CASExpressionSolver.m in Sources */,
+				6887BD1130A9A529DF2F9BE1079DAF65 /* CASInvocation.m in Sources */,
+				CDDED7831BB4502A8520E865B47B0255 /* CASLexer.m in Sources */,
+				9B0979ED3C4087E937A95A705C97C996 /* CASObjectClassDescriptor.m in Sources */,
+				B2FA9E6EAA2792DCB01F266358F40141 /* CASParser.m in Sources */,
+				BDE0F806BA05D29645E801179C4A2596 /* CASPropertyDescriptor.m in Sources */,
+				6EC16348B4EF283E7D39393276A65D55 /* CASRuntimeExtensions.m in Sources */,
+				5DFD9013C9D9BCDCC1AF421FAFAF0D6E /* CASStyleableItem.m in Sources */,
+				F6D04F968953BDB86766E2F9B6707AF1 /* CASStyleClassUtilities.m in Sources */,
+				FDEAAC49E237B81114B1177171AD713C /* CASStyleNode.m in Sources */,
+				E9BA02698F98EDB8ED55A3A1DDBC2D64 /* CASStyleProperty.m in Sources */,
+				E1A50DFFCA45FF6398F7BF0A48E9C698 /* CASStyler.m in Sources */,
+				2E515F9516C1253DDAE0F0F06AF946D8 /* CASStyleSelector.m in Sources */,
+				13E41230B01269BF27DEF2E0A2B7FB66 /* CASTextAttributes.m in Sources */,
+				384B2D7D019DA6733DFEC100726CF27C /* CASToken.m in Sources */,
+				9E502B4587EB49CEC6C298F13F2226C5 /* CASUnitToken.m in Sources */,
+				B771A75D78046FDD1BADF180BFF174B7 /* CASUtilities.m in Sources */,
+				4865E8D11EEB7D968B4840C89C1500F3 /* Classy-dummy.m in Sources */,
+				71F36B2DF03535CAD116F16E87A59F07 /* NSObject+CASSwizzle.m in Sources */,
+				4D23A1CBE2FAEA03592F84B946A0EBB7 /* NSRegularExpression+CASAdditions.m in Sources */,
+				C618E1F6BE86D7E54604C237A57DFF0D /* NSString+CASAdditions.m in Sources */,
+				5D10ACC2A469E54C47456FF9C1F2D777 /* UIBarItem+CASAdditions.m in Sources */,
+				5D8942C323D6FCD3076299B81B1650D9 /* UIColor+CASAdditions.m in Sources */,
+				030C766925392415C2E2B096FFCD10EB /* UINavigationBar+CASAdditions.m in Sources */,
+				CEC44C59617118DDA29D0FDAB74745BD /* UINavigationItem+CASAdditions.m in Sources */,
+				84767C94EF7A03E664B79189E9382889 /* UISlider+CASAdditions.m in Sources */,
+				507771425A4A28C73365E3108F4D95AF /* UITabBar+CASAdditions.m in Sources */,
+				D63C1CDEEA9BCB4EFE63A01BC7EFF083 /* UITextField+CASAdditions.m in Sources */,
+				975409310FFE244844A882BBF9BD38A2 /* UIToolbar+CASAdditions.m in Sources */,
+				BA17592339698A657DA626E2633273B3 /* UIView+CASAdditions.m in Sources */,
+				24A992D32F6EC20A443B89AEA7820224 /* UIViewController+CASAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFE32981AE94DB40FEF7EFB56BA7213A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9EE7F81875F32A916EE55BF3DAD56E4 /* Pods-ExampleSwift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D972169B4D22E0072496812147897D13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Classy;
+			target = 6AF057D30DD6E68DBBDE71252D3564EC /* Classy */;
+			targetProxy = 37F4B1A5322F13926808B23A00A1E368 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12C4B864767C59600DBFA238F1E2F8BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		18A4694814EF7CFE87D5C19794E007C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1AAD130618349124E57012433DF057A /* Pods-ExampleSwift.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ExampleSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ExampleSwift/Pods-ExampleSwift.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ExampleSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1EDC8A5929EEFAF40C1B47AA03B3CA38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFCE2ECB772155D1C245443EED22E7F9 /* Classy.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Classy/Classy-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Classy/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Classy/Classy.modulemap";
+				PRODUCT_NAME = Classy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		23E0B351884B8CE3C1EB442166D32039 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFCE2ECB772155D1C245443EED22E7F9 /* Classy.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Classy/Classy-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Classy/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Classy/Classy.modulemap";
+				PRODUCT_NAME = Classy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		59F0302F2371FCC6B73EF0A418D40734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A7E5F00C3E21193C5B0A648D50DF7C36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E04F01440A7CF31EC853BBCB94ED2C2A /* Pods-ExampleSwift.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ExampleSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ExampleSwift/Pods-ExampleSwift.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ExampleSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59F0302F2371FCC6B73EF0A418D40734 /* Debug */,
+				12C4B864767C59600DBFA238F1E2F8BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		680D9E5880742C7304B8B601411060DB /* Build configuration list for PBXNativeTarget "Pods-ExampleSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A4694814EF7CFE87D5C19794E007C9 /* Debug */,
+				A7E5F00C3E21193C5B0A648D50DF7C36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A348155622B5AE4F718AE34BD12D1774 /* Build configuration list for PBXNativeTarget "Classy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23E0B351884B8CE3C1EB442166D32039 /* Debug */,
+				1EDC8A5929EEFAF40C1B47AA03B3CA38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
