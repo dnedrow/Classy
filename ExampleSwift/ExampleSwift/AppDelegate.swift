@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Classy
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,8 +16,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
-        return true
+
+        CASStyler.bootstrapClassy(withTargetWindows: UIApplication.shared.windows)
+        
+        let buttonClassDescriptor = CASStyler.default().objectClassDescriptor(for: UIButton.self)
+        let colorArg = CASArgumentDescriptor.arg(with: UIColor.self)
+        let controlStateMap: [String:UIControlState] = [
+            "normal" : UIControlState.normal,
+            "highlighted" : UIControlState.highlighted,
+            "disabled" : UIControlState.disabled,
+            "selected" : UIControlState.selected,
+            "focused" : UIControlState.focused,
+            "pressed" : [UIControlState.selected, UIControlState.highlighted]
+        ]
+        let stateArg = CASArgumentDescriptor.arg(withName: "state", valuesByName: controlStateMap)
+        buttonClassDescriptor?.setArgumentDescriptors([colorArg!, stateArg!], setter: #selector(UIButton.setBackgroundColor(_:for:)), forPropertyKey: "backgroundColor")
+                return true
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
