@@ -17,21 +17,31 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
 
+        // Fire up classy. We don't have any app extensions, so we can use UIApplication.shared.windows
         CASStyler.bootstrapClassy(withTargetWindows: UIApplication.shared.windows)
-        
+
+        // Set up UIButton to handle control states and setBackgroundColor extension provided by UIButton+PLColor
         let buttonClassDescriptor = CASStyler.default().objectClassDescriptor(for: UIButton.self)
         let colorArg = CASArgumentDescriptor.arg(with: UIColor.self)
         let controlStateMap: [String:UIControlState] = [
-            "normal" : UIControlState.normal,
-            "highlighted" : UIControlState.highlighted,
-            "disabled" : UIControlState.disabled,
-            "selected" : UIControlState.selected,
-            "focused" : UIControlState.focused,
-            "pressed" : [UIControlState.selected, UIControlState.highlighted]
+            "normal"        : UIControlState.normal,
+            "highlighted"   : UIControlState.highlighted,
+            "disabled"      : UIControlState.disabled,
+            "selected"      : UIControlState.selected,
+            "focused"       : UIControlState.focused,
+            "pressed"       : [UIControlState.selected, UIControlState.highlighted]
         ]
         let stateArg = CASArgumentDescriptor.arg(withName: "state", valuesByName: controlStateMap)
+        // Tie it all together for UIButton
         buttonClassDescriptor?.setArgumentDescriptors([colorArg!, stateArg!], setter: #selector(UIButton.setBackgroundColor(_:for:)), forPropertyKey: "backgroundColor")
-                return true
+
+#if TARGET_IPHONE_SIMULATOR
+        // Set up live reload
+        var absoluteFilePath: String = CASAbsoluteFilePath("Styles/stylesheet.cas")
+        CASStyler.default().watchFilePath = absoluteFilePath
+#endif
+
+        return true
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
