@@ -33,8 +33,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         ]
         let stateArg = CASArgumentDescriptor.arg(withName: "state", valuesByName: controlStateMap)
         // Tie it all together for UIButton
-        buttonClassDescriptor?.setArgumentDescriptors([colorArg!, stateArg!], setter: #selector(UIButton.setBackgroundColor(_:for:)), forPropertyKey: "backgroundColor")
-
+//        buttonClassDescriptor?.setArgumentDescriptors([colorArg!, stateArg!], setter: #selector(UIButton.setBackgroundColor(_:for:)), forPropertyKey: "backgroundColor")
+//        buttonClassDescriptor?.setArgumentDescriptors([colorArg as Any, stateArg as Any], setter: #selector(UIButton.setBackgroundColor(_:forState:)), forPropertyKey: "backgroundColor")
+//        buttonClassDescriptor?.setArgumentDescriptors([colorArg as Any, stateArg as Any], setter: #selector(UIButton.setBackgroundColor(_:forState:)), forPropertyKey: "backgroundColor")
+//        buttonClassDescriptor?.setArgumentDescriptors([colorArg as Any, stateArg as Any], setter: #selector(UIButton.setBackgroundColor(withColor:forState:)), forPropertyKey: "backgroundColor")
+        buttonClassDescriptor?.setArgumentDescriptors([colorArg as Any, stateArg as Any], setter: #selector(UIButton.setBackgroundColor(color:state:)), forPropertyKey: "backgroundColor")
+        
+//        buttonClassDescriptor?.setArgumentDescriptors([colorArg as Any, stateArg as Any], setter: #selector(UIButton.setBackgroundColorWithColor(_:state:)), forPropertyKey: "backgroundColor")
+        
 #if TARGET_IPHONE_SIMULATOR
         // Set up live reload
         var absoluteFilePath: String = CASAbsoluteFilePath("Styles/stylesheet.cas")

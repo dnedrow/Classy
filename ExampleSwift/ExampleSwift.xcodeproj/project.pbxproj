@@ -8,14 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		0E2CC2A02B4475A856E1DB36 /* Pods_ExampleSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BCC8F7AC65CA92AF11DB38F /* Pods_ExampleSwift.framework */; };
+		6B62A3741F255586B407A587 /* UIButton+PLColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B62A1875C80963B3BBCE13C /* UIButton+PLColor.swift */; };
 		BB107AE21F9ECB9D0087D101 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB107AE11F9ECB9D0087D101 /* AppDelegate.swift */; };
 		BB107AE41F9ECB9D0087D101 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB107AE31F9ECB9D0087D101 /* ViewController.swift */; };
 		BB107AE71F9ECB9D0087D101 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB107AE51F9ECB9D0087D101 /* Main.storyboard */; };
 		BB107AE91F9ECB9D0087D101 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB107AE81F9ECB9D0087D101 /* Assets.xcassets */; };
 		BB107AEC1F9ECB9D0087D101 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB107AEA1F9ECB9D0087D101 /* LaunchScreen.storyboard */; };
-		BB183B921F9F7ACB00ED6384 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BB183B8E1F9F7ACB00ED6384 /* LICENSE */; };
-		BB183B931F9F7ACB00ED6384 /* UIButton+PLColor.m in Sources */ = {isa = PBXBuildFile; fileRef = BB183B8F1F9F7ACB00ED6384 /* UIButton+PLColor.m */; };
-		BB183B941F9F7ACB00ED6384 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = BB183B901F9F7ACB00ED6384 /* README.md */; };
 		BB183B981F9F874F00ED6384 /* colors.cas in Resources */ = {isa = PBXBuildFile; fileRef = 6B62ABC4D2913E7AFB6E1062 /* colors.cas */; };
 		BB183B991F9F874F00ED6384 /* stylesheet.cas in Resources */ = {isa = PBXBuildFile; fileRef = 6B62AABF5C3ABD1332F13196 /* stylesheet.cas */; };
 /* End PBXBuildFile section */
@@ -23,6 +21,7 @@
 /* Begin PBXFileReference section */
 		471B73D04621CEAF825AFD70 /* Pods-ExampleSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-ExampleSwift/Pods-ExampleSwift.release.xcconfig"; sourceTree = "<group>"; };
 		4BCC8F7AC65CA92AF11DB38F /* Pods_ExampleSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExampleSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B62A1875C80963B3BBCE13C /* UIButton+PLColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+PLColor.swift"; sourceTree = "<group>"; };
 		6B62AABF5C3ABD1332F13196 /* stylesheet.cas */ = {isa = PBXFileReference; lastKnownFileType = file.cas; path = stylesheet.cas; sourceTree = "<group>"; };
 		6B62ABC4D2913E7AFB6E1062 /* colors.cas */ = {isa = PBXFileReference; lastKnownFileType = file.cas; path = colors.cas; sourceTree = "<group>"; };
 		73B5A8CB7A361D0665BA4319 /* Pods-ExampleSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExampleSwift/Pods-ExampleSwift.debug.xcconfig"; sourceTree = "<group>"; };
@@ -33,10 +32,6 @@
 		BB107AE81F9ECB9D0087D101 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB107AEB1F9ECB9D0087D101 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB107AED1F9ECB9D0087D101 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BB183B8E1F9F7ACB00ED6384 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		BB183B8F1F9F7ACB00ED6384 /* UIButton+PLColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+PLColor.m"; sourceTree = "<group>"; };
-		BB183B901F9F7ACB00ED6384 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		BB183B911F9F7ACB00ED6384 /* UIButton+PLColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+PLColor.h"; sourceTree = "<group>"; };
 		BB183B971F9F7B4A00ED6384 /* ExampleSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ExampleSwift-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -99,7 +94,6 @@
 		BB107AE01F9ECB9D0087D101 /* ExampleSwift */ = {
 			isa = PBXGroup;
 			children = (
-				BB183B8D1F9F7ACB00ED6384 /* UIButton-PLColor */,
 				BB107AE11F9ECB9D0087D101 /* AppDelegate.swift */,
 				BB107AE31F9ECB9D0087D101 /* ViewController.swift */,
 				BB107AE51F9ECB9D0087D101 /* Main.storyboard */,
@@ -108,19 +102,9 @@
 				BB107AED1F9ECB9D0087D101 /* Info.plist */,
 				BB183B971F9F7B4A00ED6384 /* ExampleSwift-Bridging-Header.h */,
 				6B62A3F7E2157DAF21BBD5C4 /* Styles */,
+				6B62A1875C80963B3BBCE13C /* UIButton+PLColor.swift */,
 			);
 			path = ExampleSwift;
-			sourceTree = "<group>";
-		};
-		BB183B8D1F9F7ACB00ED6384 /* UIButton-PLColor */ = {
-			isa = PBXGroup;
-			children = (
-				BB183B8E1F9F7ACB00ED6384 /* LICENSE */,
-				BB183B8F1F9F7ACB00ED6384 /* UIButton+PLColor.m */,
-				BB183B901F9F7ACB00ED6384 /* README.md */,
-				BB183B911F9F7ACB00ED6384 /* UIButton+PLColor.h */,
-			);
-			path = "UIButton-PLColor";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,8 +173,6 @@
 				BB183B991F9F874F00ED6384 /* stylesheet.cas in Resources */,
 				BB107AEC1F9ECB9D0087D101 /* LaunchScreen.storyboard in Resources */,
 				BB107AE91F9ECB9D0087D101 /* Assets.xcassets in Resources */,
-				BB183B941F9F7ACB00ED6384 /* README.md in Resources */,
-				BB183B921F9F7ACB00ED6384 /* LICENSE in Resources */,
 				BB107AE71F9ECB9D0087D101 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,7 +240,7 @@
 			files = (
 				BB107AE41F9ECB9D0087D101 /* ViewController.swift in Sources */,
 				BB107AE21F9ECB9D0087D101 /* AppDelegate.swift in Sources */,
-				BB183B931F9F7ACB00ED6384 /* UIButton+PLColor.m in Sources */,
+				6B62A3741F255586B407A587 /* UIButton+PLColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

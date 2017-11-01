@@ -23,12 +23,14 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ASB-Nf-hbI">
-                                <rect key="frame" x="164" y="91" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ASB-Nf-hbI">
+                                <rect key="frame" x="160" y="91" width="54" height="34"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
                             </button>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="qjm-df-VfO">
-                                <rect key="frame" x="30" y="151" width="314" height="135"/>
+                                <rect key="frame" x="30" y="155" width="314" height="135"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="314" id="CTE-lJ-uV7"/>
@@ -54,7 +56,7 @@
                                 </prototypes>
                             </tableView>
                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="n2H-KT-GZN">
-                                <rect key="frame" x="88" y="316" width="200" height="110"/>
+                                <rect key="frame" x="88" y="320" width="200" height="110"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="110" id="1dh-O8-ppb"/>
                                     <constraint firstAttribute="width" constant="200" id="y7G-8S-m0x"/>

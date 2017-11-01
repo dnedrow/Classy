@@ -1,4 +1,9 @@
 /*
  * Classy Stylesheet
  */
- 
+
+$color_red = #FF0000
+$color_green = #00FF00
+$color_blue = #0000FF
+$color_black = #000000
+$color_white = #FFFFFF
